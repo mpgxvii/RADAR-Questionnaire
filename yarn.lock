@@ -569,6 +569,13 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/app-launcher@^5.31.1":
+  version "5.31.1"
+  resolved "https://registry.yarnpkg.com/@ionic-native/app-launcher/-/app-launcher-5.31.1.tgz#c652fb76a7a8d21b5ac0149143a969cf39997b45"
+  integrity sha512-kHfsnbelbAFD9NKyw/T+3WzfbwV1MBMn/PAExwdGYfLMaR3YeB3mGzDY+qIbzHmmiUOE3X+0egGmp90MWe3/lw==
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/app-version@^5.28.0":
   version "5.28.0"
   resolved "https://registry.yarnpkg.com/@ionic-native/app-version/-/app-version-5.28.0.tgz#ee35f55fb6d634e7d81b2062e5df5ac3012ee8b7"
@@ -660,10 +667,10 @@
   dependencies:
     "@types/cordova" latest
 
-"@ionic-native/mobile-accessibility@^5.28.0":
-  version "5.28.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/mobile-accessibility/-/mobile-accessibility-5.28.0.tgz#7a2bbffd798f272b303d68dcfe70cf4c76bdf850"
-  integrity sha512-Qkw9IoKt3iNx9CGSm0yZERiwdgBO78306vfjKAxB8qghMAeer116rQsa6fxjFONf4KQFE3CPGEQShJeDC3qfag==
+"@ionic-native/mobile-accessibility@^5.36.0":
+  version "5.36.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/mobile-accessibility/-/mobile-accessibility-5.36.0.tgz#07d9328921d81331f8cac16a2082d9748ba3bd08"
+  integrity sha512-mEe99zkDTvk0QzklmPR9DmlojqmRuQyuYwQk6q+ePV5NJIP5xrqJ4C7DdkolHvfFGhFcZ59aIuIfrRtgUY4+lg==
   dependencies:
     "@types/cordova" latest
 
@@ -8423,6 +8430,13 @@ kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
   integrity sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=
+  dependencies:
+    is-buffer "^1.1.5"
+
+kind-of@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-4.0.0.tgz#20813df3d712928b207378691a45066fae72dd57"
+  integrity sha1-IIE989cSkosgc3hpGkUGb65y3Vc=
   dependencies:
     is-buffer "^1.1.5"
 
